@@ -12,11 +12,6 @@ import time
 
 
 class CronJob(CronJobBase):
-
-    # Ustawienie harmonogramu na raz dziennie
-    RUN_AT_TIMES = ['00:00']  
-
-    schedule = Schedule(run_at_times=RUN_AT_TIMES)
     
     code = 'addOrder'    # a unique code
 
